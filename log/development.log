@@ -1,0 +1,133 @@
+
+
+Processing InfoController#properties (for ::1 at 2009-08-18 13:28:00) [GET]
+  Session ID: 8ec49af15cdb2a18e1b993d9330f7add
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+
+
+Processing InfoController#properties (for ::1 at 2009-08-18 13:28:00) [GET]
+  Session ID: 8ec49af15cdb2a18e1b993d9330f7add
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+
+
+SQLite3::CantOpenException (could not open database: unable to open database file):
+    /usr/lib/ruby/1.8/sqlite3/errors.rb:62:in `check'
+    /usr/lib/ruby/1.8/sqlite3/database.rb:79:in `initialize'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:292:in `send'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:292:in `connection='
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:260:in `retrieve_connection'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:130:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:389:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /vendor/rails/railties/lib/fcgi_handler.rb:103:in `process_request'
+    /vendor/rails/railties/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /vendor/rails/railties/lib/fcgi_handler.rb:101:in `process_request'
+    /vendor/rails/railties/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/lib/ruby/1.8/fcgi.rb:612:in `each_cgi'
+    /usr/lib/ruby/1.8/fcgi.rb:609:in `each'
+    /usr/lib/ruby/1.8/fcgi.rb:609:in `each_cgi'
+    /vendor/rails/railties/lib/fcgi_handler.rb:77:in `process_each_request'
+    /vendor/rails/railties/lib/fcgi_handler.rb:76:in `catch'
+    /vendor/rails/railties/lib/fcgi_handler.rb:76:in `process_each_request'
+    /vendor/rails/railties/lib/fcgi_handler.rb:50:in `process!'
+    /vendor/rails/railties/lib/fcgi_handler.rb:24:in `process!'
+    /public/dispatch.fcgi:26
+
+Rendering /home/negro/www/nuevaapp/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing InfoController#properties (for ::1 at 2009-08-18 13:30:34) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d4bda40b9d8fe95a36704c3f6087f88623f66e42
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+
+
+Processing InfoController#properties (for ::1 at 2009-08-18 13:30:34) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d4bda40b9d8fe95a36704c3f6087f88623f66e42
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+
+
+SQLite3::CantOpenException (could not open database: unable to open database file):
+    /usr/lib/ruby/1.8/sqlite3/errors.rb:62:in `check'
+    /usr/lib/ruby/1.8/sqlite3/database.rb:79:in `initialize'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:292:in `send'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:292:in `connection='
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:260:in `retrieve_connection'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:130:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:389:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /vendor/rails/railties/lib/fcgi_handler.rb:103:in `process_request'
+    /vendor/rails/railties/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /vendor/rails/railties/lib/fcgi_handler.rb:101:in `process_request'
+    /vendor/rails/railties/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/lib/ruby/1.8/fcgi.rb:612:in `each_cgi'
+    /usr/lib/ruby/1.8/fcgi.rb:609:in `each'
+    /usr/lib/ruby/1.8/fcgi.rb:609:in `each_cgi'
+    /vendor/rails/railties/lib/fcgi_handler.rb:77:in `process_each_request'
+    /vendor/rails/railties/lib/fcgi_handler.rb:76:in `catch'
+    /vendor/rails/railties/lib/fcgi_handler.rb:76:in `process_each_request'
+    /vendor/rails/railties/lib/fcgi_handler.rb:50:in `process!'
+    /vendor/rails/railties/lib/fcgi_handler.rb:24:in `process!'
+    /public/dispatch.fcgi:26
+
+Rendering /home/negro/www/nuevaapp/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+  [4;36;1mSQL (0.000391)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000216)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.166939)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.175964)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000638)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000272)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.012052)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000594)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000350)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000204)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mInterrupt: : CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (0.000629)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000339)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.000201)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000229)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
