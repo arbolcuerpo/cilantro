@@ -131,3 +131,11 @@ Rendering /home/negro/www/nuevaapp/vendor/rails/actionpack/lib/action_controller
  FROM sqlite_master
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 [0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-30 15:44:58) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
